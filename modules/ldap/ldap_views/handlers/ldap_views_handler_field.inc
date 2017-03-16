@@ -2,26 +2,16 @@
 
 /**
  * @file
- * LDAP field handler.
+ * LDAP field handler
  *
- * Defines a new class field handler for a default ldap field.
- */
-
-/**
- *
+ * Defines a new class field handler for a default ldap field
  */
 class ldap_views_handler_field extends views_handler_field {
 
-  /**
-   *
-   */
   function render($values) {
     return array_key_exists($this->field_alias, $values) ? check_plain($values[$this->field_alias]) : '';
   }
 
-  /**
-   *
-   */
   function element_type($none_supported = FALSE, $default_empty = FALSE, $inline = FALSE) {
     if (isset($this->definition['element type'])) {
       return $this->definition['element type'];
@@ -30,9 +20,6 @@ class ldap_views_handler_field extends views_handler_field {
     return 'div';
   }
 
-  /**
-   *
-   */
   function option_definition() {
     $options = parent::option_definition();
     $options['multivalue']      = array('default' => 'v-all');
@@ -41,14 +28,13 @@ class ldap_views_handler_field extends views_handler_field {
     return $options;
   }
 
-  /**
-   * Add the field for the LDAP Attribute.
+  /*
+   * Add the field for the LDAP Attribute
    */
   function options_form(&$form, &$form_state) {
     parent::options_form($form, $form_state);
     $form['multivalue'] = array(
-    // It should be 'radios', but it makes #dependency not to work.
-      '#type' => 'select',
+      '#type' => 'select',     // it should be 'radios', but it makes #dependency not to work
       '#title' => t('Values to show'),
       '#description' => t('What to do whith  multivalue attributes'),
       '#options' => array(
@@ -78,5 +64,4 @@ class ldap_views_handler_field extends views_handler_field {
       ),
     );
   }
-
 }

@@ -1,38 +1,33 @@
 <?php
 /**
  * @file
- */
-
-// @Fixme: Add back in when reliably loaded.
-// For og constants.
-// module_load_include('php', 'og', 'module');
-
-/**
  *
  */
+
+module_load_include('php', 'og', 'module');  // for og constants
+
 function ldap_test_ldap_authorization_data() {
 
-  $empty_mappings = array(
-    'from' => '',
-    'user_entered' => '',
-    'normalized' => '',
-    'simplified' => '',
-    'valid' => '',
-    'error_message' => '',
+$empty_mappings = array(
+  'from' => '',
+  'user_entered' => '',
+  'normalized' => '',
+  'simplified' => '',
+  'valid' => '',
+  'error_message' => '',
   );
-  // Cant use constant OG_AUTHENTICATED_ROLE here.
-  $OG_AUTHENTICATED_ROLE = 'member';
-  $conf['og_group2']['og_group'] = array(
+$OG_AUTHENTICATED_ROLE = 'member'; // cant use constant OG_AUTHENTICATED_ROLE here
+$conf['og_group2']['og_group'] = array(
 
-    'sid' => 'activedirectory1',
-    'consumerType' => 'og_group',
-    'consumerModule' => 'ldap_authorization_og_group',
+  'sid' => 'activedirectory1',
+  'consumerType' => 'og_group',
+  'consumerModule' => 'ldap_authorization_og_group',
 
-    'description' => 'Hogwarts AD',
-    'status' => 1,
-    'onlyApplyToLdapAuthenticated' => 1,
+  'description' => 'Hogwarts AD',
+  'status' => 1,
+  'onlyApplyToLdapAuthenticated' => 1,
 
-    'mappings' => array(
+  'mappings' => array(
     array(
       'from' => 'cn=students,ou=groups,dc=hogwarts,dc=edu',
       'user_entered' => 'students',
@@ -44,7 +39,7 @@ function ldap_test_ldap_authorization_data() {
     array(
       'from' => 'cn=faculty,ou=groups,dc=hogwarts,dc=edu',
       'user_entered' => 'faculty',
-      'normalized' => 'node:faculty:' . $OG_AUTHENTICATED_ROLE,
+      'normalized' =>  'node:faculty:' . $OG_AUTHENTICATED_ROLE,
       'simplified' => '',
       'valid' => '',
       'error_message' => '',
@@ -65,20 +60,20 @@ function ldap_test_ldap_authorization_data() {
       'valid' => '',
       'error_message' => '',
     ),
-    ),
+  ),
 
-    'useMappingsAsFilter' => 1,
+  'useMappingsAsFilter' => 1,
 
-    'synchOnLogon' => 1,
+  'synchOnLogon' => 1,
 
-    'revokeLdapProvisioned' => 1,
-    'createConsumerTargets' => 0,
-    'regrantLdapProvisioned' => 1,
+  'revokeLdapProvisioned' => 1,
+  'createConsumers' => 0,
+  'regrantLdapProvisioned' => 1,
 
-  );
+);
 
-  $conf['og_group15']['og_group'] = $conf['og_group2']['og_group'];
-  $conf['og_group15']['og_group']['mappings'] = array(
+$conf['og_group15']['og_group'] = $conf['og_group2']['og_group'];
+$conf['og_group15']['og_group']['mappings'] = array(
     array(
       'from' => 'cn=students,ou=groups,dc=hogwarts,dc=edu',
       'user_entered' => 'group-name=students,role-name=member',
@@ -109,17 +104,18 @@ function ldap_test_ldap_authorization_data() {
     ),
   );
 
-  $conf['drupal_role_default']['drupal_role'] = array(
 
-    'sid' => 'activedirectory1',
-    'consumerType' => 'drupal_role',
-    'consumerModule' => 'ldap_authorization_drupal_role',
+$conf['drupal_role_default']['drupal_role'] = array(
 
-    'description' => 'Hogwarts AD',
-    'status' => 1,
-    'onlyApplyToLdapAuthenticated' => 1,
+  'sid' => 'activedirectory1',
+  'consumerType' => 'drupal_role',
+  'consumerModule' => 'ldap_authorization_drupal_role',
 
-    'mappings' => array(
+  'description' => 'Hogwarts AD',
+  'status' => 1,
+  'onlyApplyToLdapAuthenticated' => 1,
+
+  'mappings' => array(
     array(
       'from' => 'cn=students,ou=groups,dc=hogwarts,dc=edu',
       'user_entered' => 'students',
@@ -152,27 +148,28 @@ function ldap_test_ldap_authorization_data() {
       'valid' => TRUE,
       'error_message' => '',
     ),
-    ),
+  ),
 
-    'useMappingsAsFilter' => 0,
 
-    'synchOnLogon' => 1,
+  'useMappingsAsFilter' => 0,
 
-    'revokeLdapProvisioned' => 1,
-    'createConsumerTargets' => 1,
-    'regrantLdapProvisioned' => 1,
+  'synchOnLogon' => 1,
+
+  'revokeLdapProvisioned' => 1,
+  'createConsumers' => 1,
+  'regrantLdapProvisioned' => 1,
   );
 
-  $conf['drupal_role_authentication_test']['drupal_role'] = array(
-    'sid' => 'activedirectory1',
-    'consumerType' => 'drupal_role',
-    'consumerModule' => 'ldap_authorization_drupal_role',
+$conf['drupal_role_authentication_test']['drupal_role'] = array(
+  'sid' => 'activedirectory1',
+  'consumerType' => 'drupal_role',
+  'consumerModule' => 'ldap_authorization_drupal_role',
 
-    'description' => 'Hogwarts AD',
-    'status' => 1,
-    'onlyApplyToLdapAuthenticated' => 1,
+  'description' => 'Hogwarts AD',
+  'status' => 1,
+  'onlyApplyToLdapAuthenticated' => 1,
 
-    'mappings' => array(
+  'mappings' => array(
     array(
       'from' => 'cn=students,ou=groups,dc=hogwarts,dc=edu',
       'user_entered' => 'students',
@@ -197,16 +194,16 @@ function ldap_test_ldap_authorization_data() {
       'valid' => TRUE,
       'error_message' => '',
     ),
-    ),
+  ),
 
-    'useMappingsAsFilter' => 1,
+  'useMappingsAsFilter' => 1,
 
-    'synchOnLogon' => 1,
+  'synchOnLogon' => 1,
 
-    'revokeLdapProvisioned' => 1,
-    'createConsumerTargets' => 1,
-    'regrantLdapProvisioned' => 1,
+  'revokeLdapProvisioned' => 1,
+  'createConsumers' => 1,
+  'regrantLdapProvisioned' => 1,
   );
 
-  return $conf;
+return $conf;
 }

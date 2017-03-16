@@ -1,8 +1,9 @@
 {
   "name": "drupal/ldap",
-  "description": "Lightweight Directory Access Protocol (LDAP)",
   "type": "drupal-module",
-  "license": "GPL-2.0+",
-  "minimum-stability": "dev",
-  "require": { }
+  "description": "",
+  "license": "",
+  "require": {
+  },
+  "minimum-stability": "stable"
 }

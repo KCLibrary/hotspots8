@@ -2,10 +2,11 @@
 
 /**
  * @file
+ *
  */
 
 /**
- * See ldap_query_get_servers()
+ * see ldap_query_get_servers()
  */
 function _ldap_query_get_queries($qid, $type, $flatten, $reset) {
   ldap_servers_module_load_include('php', 'ldap_query', 'LdapQueryAdmin.class');
@@ -26,6 +27,7 @@ function _ldap_query_get_queries($qid, $type, $flatten, $reset) {
     }
   }
 
+
   if ($qid) {
     if (!isset($queries[$type][$qid])) {
       return FALSE;
@@ -39,10 +41,10 @@ function _ldap_query_get_queries($qid, $type, $flatten, $reset) {
 }
 
 /**
- * See ldap_query_get_servers()
+ * see ldap_query_get_servers()
  */
 function _ldap_query_get_simpletest_queries($qid, $type, $flatten, $reset = TRUE) {
-  require_once 'tests/LdapQueryTest.class.php';
+  require_once('tests/LdapQueryTest.class.php');
 
   $queries['all'] = LdapQueryTest::getLdapQueryObjects('all', 'all');
 
@@ -51,6 +53,7 @@ function _ldap_query_get_simpletest_queries($qid, $type, $flatten, $reset = TRUE
       $queries['enabled'][$_qid] = $ldap_query;
     }
   }
+
 
   if ($sid) {
     if (!isset($queries[$type][$qid])) {

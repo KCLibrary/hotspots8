@@ -2,16 +2,14 @@
 
 /**
  * @file
+ *
  * Provides the Parser for an ldap entry array.
  */
 
-/**
- *
- */
 class FeedsLdapEntryParser extends FeedsParser {
   public $ldap_result;
 
-  /**
+   /**
    * Implements FeedsParser::parse().
    */
   public function parse(FeedsSource $source, FeedsFetcherResult $fetcher_result) {
@@ -21,12 +19,12 @@ class FeedsLdapEntryParser extends FeedsParser {
     $parsed_items = array();
     for ($i = 0; $i < $ldap_entries['count']; $i++) {
       $ldap_entry = $ldap_entries[$i];
-      $parsed_item = array('dn' => (string) $ldap_entry['dn']);
+      $parsed_item = array('dn' => (string)$ldap_entry['dn']);
       foreach ($mappings as $j => $map) {
         $source_lcase = drupal_strtolower($map['source']);
         $source = $map['source'];
         if (isset($ldap_entry['attr'])) {
-          // Exception need because of unconvential format of ldap data returned from $ldap_server->userUserNameToExistingLdapEntry.
+          // exception need because of unconvential format of ldap data returned from $ldap_server->userUserNameToExistingLdapEntry
           $ldap_attributes = $ldap_entry['attr'];
         }
         else {
@@ -34,8 +32,11 @@ class FeedsLdapEntryParser extends FeedsParser {
         }
         if ($source_lcase != 'dn' && isset($ldap_attributes[$source_lcase][0])) {
           if ($ldap_attributes[$source_lcase]['count'] == 1 && is_scalar($ldap_attributes[$source_lcase][0])) {
-            $parsed_item[$source] = (string) $ldap_attributes[$source_lcase][0];
+            $parsed_item[$source] = (string)$ldap_attributes[$source_lcase][0];
           }
+        }
+        else {
+          $parsed_item[$source] = '';
         }
       }
       $parsed_items[] = $parsed_item;
@@ -44,6 +45,7 @@ class FeedsLdapEntryParser extends FeedsParser {
     $result->items = $parsed_items;
     return $result;
   }
+
 
   /**
    * Source form.
@@ -65,9 +67,10 @@ class FeedsLdapEntryParser extends FeedsParser {
     $this->save();
   }
 
+
   /**
-   * Override parent::getMappingSources().
-   */
+  * Override parent::getMappingSources().
+  */
   public function getMappingSources() {
     return FALSE;
   }
@@ -77,14 +80,15 @@ class FeedsLdapEntryParser extends FeedsParser {
    */
   public function configDefaults() {
     /** removed until design decisions on multivalued attributes are made
-     * return array(
-     * 'multivalued' => LDAP_FEEDS_QUERY_FETCHER_MULTI_DEFAULT,
-     * );
-     *   */
+    return array(
+      'multivalued' => LDAP_FEEDS_QUERY_FETCHER_MULTI_DEFAULT,
+    );
+
+  */
     return array();
   }
 
-  /**
+   /**
    * Override parent::configForm().
    */
   public function configForm(&$form_state) {
@@ -92,9 +96,6 @@ class FeedsLdapEntryParser extends FeedsParser {
     return $form;
   }
 
-  /**
-   *
-   */
   public function sourceDefaults() {
     return array();
   }
