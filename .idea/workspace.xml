@@ -5,234 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a115ba1-6316-45e0-a761-08fa67c9977d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/README.Drupal8Migration.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authentication/config/install/ldap_authentication.settings.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authentication/config/schema/ldap_authentication.schema.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authentication/ldap_authentication.info.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authentication/ldap_authentication.links.task.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authentication/ldap_authentication.routing.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authentication/src/Form/LdapAuthenticationAdminForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authentication/src/Form/LdapAuthenticationProfileUpdateForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authentication/src/Routing/RouteSubscriber.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authentication/src/Tests/LdapAuthenticationTestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authentication/upgrade-info.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authorization/config/schema/ldap_authorization.provider.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authorization/config/schema/ldap_authorization.provider_mappings.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authorization/ldap_authorization.info.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authorization/src/Plugin/authorization/Provider/LDAPAuthorizationProvider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_feeds/ldap_feeds.info.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_feeds/upgrade-info.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_help/config/install/ldap_help.settings.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_help/config/schema/ldap_help.schema.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_help.info.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_query/ldap_query.info.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/config/install/ldap_servers.settings.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/config/schema/ldap_servers.schema.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/config/schema/server.schema.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.info.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.links.action.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.links.menu.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.links.task.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.routing.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/src/Entity/Server.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/src/Form/LdapServersSettings.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/src/Form/ServerDeleteForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/src/Form/ServerEnableDisable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/src/Form/ServerForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/src/Form/ServerTestForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/src/LdapServersRebindHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/src/LdapTypeAbstract.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/src/LdapTypeActiveDirectory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/src/LdapTypeDefault.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/src/LdapTypeNovell.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/src/LdapTypeOpenDirectory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/src/LdapTypeOpenLdap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/src/ServerInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/src/ServerListBuilder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/src/Tests/LdapServersTestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_test/config/install/ldap_test.settings.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_test/config/schema/ldap_test.schema.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_test/ldap_test.info.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_test/src/LdapTestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_test/src/LdapTestFunctions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_test/src/TestServer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/config/install/ldap_user.settings.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/config/schema/ldap_user.schema.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.info.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.links.action.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.links.task.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.routing.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.services.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/src/EventSubscriber/InitSubscriber.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/src/Form/LdapUserAdminForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/src/Form/LdapUserTestForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/src/LdapUserConf.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/src/LdapUserConfAdmin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/src/Tests/LdapUserIntegrationTests.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/src/Tests/LdapUserUITests.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/src/Tests/LdapUserUnitTests.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/src/Tests/ldap_user.test.manual.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/templates/form-element-label.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/templates/form-element.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/templates/ldap-user-conf-form.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/templates/ldap-user-conf-mapping-table.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/ldap/ldap_views/ldap_views.info.yml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/address.info.yml" afterPath="$PROJECT_DIR$/modules/address/address.info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/address.module" afterPath="$PROJECT_DIR$/modules/address/address.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/address.views.inc" afterPath="$PROJECT_DIR$/modules/address/address.views.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/css/address.form.css" afterPath="$PROJECT_DIR$/modules/address/css/address.form.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/src/Annotation/ZoneMember.php" afterPath="$PROJECT_DIR$/modules/address/src/Annotation/ZoneMember.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/src/Entity/ZoneInterface.php" afterPath="$PROJECT_DIR$/modules/address/src/Entity/ZoneInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/src/FieldHelper.php" afterPath="$PROJECT_DIR$/modules/address/src/FieldHelper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/src/Form/ZoneForm.php" afterPath="$PROJECT_DIR$/modules/address/src/Form/ZoneForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/src/LabelHelper.php" afterPath="$PROJECT_DIR$/modules/address/src/LabelHelper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/src/Plugin/Field/FieldFormatter/AddressDefaultFormatter.php" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/Field/FieldFormatter/AddressDefaultFormatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/src/Plugin/Field/FieldFormatter/AddressPlainFormatter.php" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/Field/FieldFormatter/AddressPlainFormatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/src/Plugin/Field/FieldType/AddressItem.php" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/Field/FieldType/AddressItem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/src/Plugin/Field/FieldWidget/AddressDefaultWidget.php" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/Field/FieldWidget/AddressDefaultWidget.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/src/Plugin/Validation/Constraint/AddressFormatConstraint.php" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/Validation/Constraint/AddressFormatConstraint.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/src/Plugin/Validation/Constraint/CountryConstraintValidator.php" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/Validation/Constraint/CountryConstraintValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/src/Plugin/ZoneMember/ZoneMemberCountry.php" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/ZoneMember/ZoneMemberCountry.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/src/Plugin/ZoneMember/ZoneMemberInterface.php" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/ZoneMember/ZoneMemberInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/src/Plugin/migrate/process/AddressField.php" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/migrate/process/AddressField.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/src/Plugin/views/field/Subdivision.php" afterPath="$PROJECT_DIR$/modules/address/src/Plugin/views/field/Subdivision.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/src/Repository/CountryRepository.php" afterPath="$PROJECT_DIR$/modules/address/src/Repository/CountryRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/src/ZoneListBuilder.php" afterPath="$PROJECT_DIR$/modules/address/src/ZoneListBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/tests/modules/address_test/address_test.info.yml" afterPath="$PROJECT_DIR$/modules/address/tests/modules/address_test/address_test.info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/tests/modules/address_test/src/EventSubscriber/AddressTestEventSubscriber.php" afterPath="$PROJECT_DIR$/modules/address/tests/modules/address_test/src/EventSubscriber/AddressTestEventSubscriber.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/tests/src/FunctionalJavascript/AddressDefaultWidgetTest.php" afterPath="$PROJECT_DIR$/modules/address/tests/src/FunctionalJavascript/AddressDefaultWidgetTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/tests/src/FunctionalJavascript/ZoneTest.php" afterPath="$PROJECT_DIR$/modules/address/tests/src/FunctionalJavascript/ZoneTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/address/tests/src/Kernel/Formatter/PlainFormatterTest.php" afterPath="$PROJECT_DIR$/modules/address/tests/src/Kernel/Formatter/PlainFormatterTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar.info.yml" afterPath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar.info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar.libraries.yml" afterPath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar.libraries.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar_tools/admin_toolbar_tools.info.yml" afterPath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar_tools/admin_toolbar_tools.info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar_tools/admin_toolbar_tools.module" afterPath="$PROJECT_DIR$/modules/admin_toolbar/admin_toolbar_tools/admin_toolbar_tools.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/admin_toolbar/css/admin.toolbar.css" afterPath="$PROJECT_DIR$/modules/admin_toolbar/css/admin.toolbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field_group/contrib/field_group_migrate/field_group_migrate.info.yml" afterPath="$PROJECT_DIR$/modules/field_group/contrib/field_group_migrate/field_group_migrate.info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field_group/field_group.info.yml" afterPath="$PROJECT_DIR$/modules/field_group/field_group.info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field_group/formatters/tabs/horizontal-tabs.js" afterPath="$PROJECT_DIR$/modules/field_group/formatters/tabs/horizontal-tabs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/field_group/tests/modules/field_group_test/field_group_test.info.yml" afterPath="$PROJECT_DIR$/modules/field_group/tests/modules/field_group_test/field_group_test.info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/.gitignore" afterPath="$PROJECT_DIR$/modules/ldap/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/LICENSE.txt" afterPath="$PROJECT_DIR$/modules/ldap/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/composer.json" afterPath="$PROJECT_DIR$/modules/ldap/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authentication/LdapAuthenticationConf.class.php" afterPath="$PROJECT_DIR$/modules/ldap/ldap_authentication/LdapAuthenticationConf.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authentication/LdapAuthenticationConfAdmin.class.php" afterPath="$PROJECT_DIR$/modules/ldap/ldap_authentication/LdapAuthenticationConfAdmin.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authentication/ldap_authentication.admin.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_authentication/ldap_authentication.admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authentication/ldap_authentication.api.php" afterPath="$PROJECT_DIR$/modules/ldap/ldap_authentication/ldap_authentication.api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authentication/ldap_authentication.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_authentication/ldap_authentication.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authentication/ldap_authentication.install" afterPath="$PROJECT_DIR$/modules/ldap/ldap_authentication/ldap_authentication.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authentication/ldap_authentication.module" afterPath="$PROJECT_DIR$/modules/ldap/ldap_authentication/ldap_authentication.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authentication/ldap_authentication.theme.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_authentication/ldap_authentication.theme.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_authorization/ldap_authorization.module" afterPath="$PROJECT_DIR$/modules/ldap/ldap_authorization/ldap_authorization.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_feeds/FeedsDrupalUserLdapEntryFetcher.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_feeds/FeedsDrupalUserLdapEntryFetcher.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_feeds/FeedsLdapEntryParser.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_feeds/FeedsLdapEntryParser.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_feeds/FeedsLdapQueryFetcher.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_feeds/FeedsLdapQueryFetcher.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_feeds/ldap_feeds.module" afterPath="$PROJECT_DIR$/modules/ldap/ldap_feeds/ldap_feeds.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_help.examples.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_help.examples.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_help.install" afterPath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_help.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_help.issues.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_help.issues.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_help.module" afterPath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_help.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_help.resources.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_help.resources.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_help.status.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_help.status.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_help.watchdog.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_help.watchdog.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_test_script/README.txt" afterPath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_test_script/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_test_script/config.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_test_script/config.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_test_script/functions.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_test_script/functions.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_test_script/test.php" afterPath="$PROJECT_DIR$/modules/ldap/ldap_help/ldap_test_script/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_query/LdapQuery.class.php" afterPath="$PROJECT_DIR$/modules/ldap/ldap_query/LdapQuery.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_query/LdapQueryAdmin.class.php" afterPath="$PROJECT_DIR$/modules/ldap/ldap_query/LdapQueryAdmin.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_query/ldap_query.admin.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_query/ldap_query.admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_query/ldap_query.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_query/ldap_query.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_query/ldap_query.install" afterPath="$PROJECT_DIR$/modules/ldap/ldap_query/ldap_query.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_query/ldap_query.module" afterPath="$PROJECT_DIR$/modules/ldap/ldap_query/ldap_query.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_query/ldap_query.theme.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_query/ldap_query.theme.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.api.php" afterPath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.encryption.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.encryption.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.functions.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.functions.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.install" afterPath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.module" afterPath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.test_form.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.test_form.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.theme.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.theme.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.tokens.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.tokens.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.user_data_remove.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_servers.user_data_remove.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_types/LdapTypeAbstract.class.php" afterPath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_types/LdapTypeAbstract.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_types/LdapTypeActiveDirectory.class.php" afterPath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_types/LdapTypeActiveDirectory.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_types/LdapTypeDefault.class.php" afterPath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_types/LdapTypeDefault.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_types/LdapTypeNovell.class.php" afterPath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_types/LdapTypeNovell.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_types/LdapTypeOpenDirectory.class.php" afterPath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_types/LdapTypeOpenDirectory.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_types/LdapTypeOpenLdap.class.php" afterPath="$PROJECT_DIR$/modules/ldap/ldap_servers/ldap_types/LdapTypeOpenLdap.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_test/ldap_authentication.conf.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_test/ldap_authentication.conf.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_test/ldap_authorization.conf.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_test/ldap_authorization.conf.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_test/ldap_servers.conf.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_test/ldap_servers.conf.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_test/ldap_test.module" afterPath="$PROJECT_DIR$/modules/ldap/ldap_test/ldap_test.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_test/ldap_user.conf.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_test/ldap_user.conf.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_test/test_ldap/hogwarts/documentation.notes.txt" afterPath="$PROJECT_DIR$/modules/ldap/ldap_test/test_ldap/hogwarts/documentation.notes.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_test/test_ldap/hogwarts/hogwarts_x_openldap1.entries.php" afterPath="$PROJECT_DIR$/modules/ldap/ldap_test/test_ldap/hogwarts/hogwarts_x_openldap1.entries.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/README.developers.txt" afterPath="$PROJECT_DIR$/modules/ldap/ldap_user/README.developers.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.admin.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.api.php" afterPath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.cron.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.cron.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.css" afterPath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.install" afterPath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.module" afterPath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.test_form.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.test_form.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.theme.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.theme.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.ws.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_user/ldap_user.ws.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_views/handlers/ldap_views_handler_argument.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_views/handlers/ldap_views_handler_argument.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_views/handlers/ldap_views_handler_argument_attribute.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_views/handlers/ldap_views_handler_argument_attribute.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_views/handlers/ldap_views_handler_field.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_views/handlers/ldap_views_handler_field.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_views/handlers/ldap_views_handler_field_attribute.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_views/handlers/ldap_views_handler_field_attribute.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_views/handlers/ldap_views_handler_filter.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_views/handlers/ldap_views_handler_filter.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_views/handlers/ldap_views_handler_filter_attribute.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_views/handlers/ldap_views_handler_filter_attribute.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_views/handlers/ldap_views_handler_sort.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_views/handlers/ldap_views_handler_sort.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_views/handlers/ldap_views_handler_sort_attribute.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_views/handlers/ldap_views_handler_sort_attribute.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_views/ldap_views.install" afterPath="$PROJECT_DIR$/modules/ldap/ldap_views/ldap_views.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_views/ldap_views.module" afterPath="$PROJECT_DIR$/modules/ldap/ldap_views/ldap_views.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_views/ldap_views.views.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_views/ldap_views.views.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_views/ldap_views.views_default.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_views/ldap_views.views_default.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ldap/ldap_views/plugins/ldap_views_plugin_query_ldap.inc" afterPath="$PROJECT_DIR$/modules/ldap/ldap_views/plugins/ldap_views_plugin_query_ldap.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/pathauto.api.php" afterPath="$PROJECT_DIR$/modules/pathauto/pathauto.api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/pathauto.info.yml" afterPath="$PROJECT_DIR$/modules/pathauto/pathauto.info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/pathauto.install" afterPath="$PROJECT_DIR$/modules/pathauto/pathauto.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/pathauto.libraries.yml" afterPath="$PROJECT_DIR$/modules/pathauto/pathauto.libraries.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/pathauto.module" afterPath="$PROJECT_DIR$/modules/pathauto/pathauto.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/pathauto.services.yml" afterPath="$PROJECT_DIR$/modules/pathauto/pathauto.services.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/src/AliasStorageHelper.php" afterPath="$PROJECT_DIR$/modules/pathauto/src/AliasStorageHelper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/src/AliasTypeBatchUpdateInterface.php" afterPath="$PROJECT_DIR$/modules/pathauto/src/AliasTypeBatchUpdateInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/src/Form/PathautoAdminDelete.php" afterPath="$PROJECT_DIR$/modules/pathauto/src/Form/PathautoAdminDelete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/src/Form/PathautoBulkUpdateForm.php" afterPath="$PROJECT_DIR$/modules/pathauto/src/Form/PathautoBulkUpdateForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/src/Form/PathautoSettingsForm.php" afterPath="$PROJECT_DIR$/modules/pathauto/src/Form/PathautoSettingsForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/src/Form/PatternEditForm.php" afterPath="$PROJECT_DIR$/modules/pathauto/src/Form/PatternEditForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/src/PathautoGenerator.php" afterPath="$PROJECT_DIR$/modules/pathauto/src/PathautoGenerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/src/PathautoPatternListBuilder.php" afterPath="$PROJECT_DIR$/modules/pathauto/src/PathautoPatternListBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/src/PathautoWidget.php" afterPath="$PROJECT_DIR$/modules/pathauto/src/PathautoWidget.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/src/Plugin/pathauto/AliasType/EntityAliasTypeBase.php" afterPath="$PROJECT_DIR$/modules/pathauto/src/Plugin/pathauto/AliasType/EntityAliasTypeBase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/src/Plugin/pathauto/AliasType/ForumAliasType.php" afterPath="$PROJECT_DIR$/modules/pathauto/src/Plugin/pathauto/AliasType/ForumAliasType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/src/Tests/PathautoBulkUpdateTest.php" afterPath="$PROJECT_DIR$/modules/pathauto/src/Tests/PathautoBulkUpdateTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/src/Tests/PathautoMassDeleteTest.php" afterPath="$PROJECT_DIR$/modules/pathauto/src/Tests/PathautoMassDeleteTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/src/Tests/PathautoNodeWebTest.php" afterPath="$PROJECT_DIR$/modules/pathauto/src/Tests/PathautoNodeWebTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/src/Tests/PathautoTestHelperTrait.php" afterPath="$PROJECT_DIR$/modules/pathauto/src/Tests/PathautoTestHelperTrait.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/src/Tests/PathautoUiTest.php" afterPath="$PROJECT_DIR$/modules/pathauto/src/Tests/PathautoUiTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/tests/modules/pathauto_views_test/config/install/views.view.articles.yml" afterPath="$PROJECT_DIR$/modules/pathauto/tests/modules/pathauto_views_test/config/install/views.view.articles.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/tests/modules/pathauto_views_test/pathauto_views_test.info.yml" afterPath="$PROJECT_DIR$/modules/pathauto/tests/modules/pathauto_views_test/pathauto_views_test.info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/pathauto/tests/src/Kernel/PathautoKernelTest.php" afterPath="$PROJECT_DIR$/modules/pathauto/tests/src/Kernel/PathautoKernelTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/superfish/README.txt" afterPath="$PROJECT_DIR$/modules/superfish/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/superfish/composer.json" afterPath="$PROJECT_DIR$/modules/superfish/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/superfish/src/Plugin/Block/SuperfishBlock.php" afterPath="$PROJECT_DIR$/modules/superfish/src/Plugin/Block/SuperfishBlock.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/superfish/superfish.info.yml" afterPath="$PROJECT_DIR$/modules/superfish/superfish.info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/superfish/superfish.module" afterPath="$PROJECT_DIR$/modules/superfish/superfish.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/superfish/superfish.theme.inc" afterPath="$PROJECT_DIR$/modules/superfish/superfish.theme.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/token/README.md" afterPath="$PROJECT_DIR$/modules/token/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/token/src/Tests/TokenBlockTest.php" afterPath="$PROJECT_DIR$/modules/token/src/Tests/TokenBlockTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/token/tests/modules/token_module_test/token_module_test.info.yml" afterPath="$PROJECT_DIR$/modules/token/tests/modules/token_module_test/token_module_test.info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/token/tests/modules/token_user_picture/token_user_picture.info.yml" afterPath="$PROJECT_DIR$/modules/token/tests/modules/token_user_picture/token_user_picture.info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/token/tests/src/Kernel/FieldTest.php" afterPath="$PROJECT_DIR$/modules/token/tests/src/Kernel/FieldTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/token/token.info.yml" afterPath="$PROJECT_DIR$/modules/token/token.info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/token/token.module" afterPath="$PROJECT_DIR$/modules/token/token.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/token/token.tokens.inc" afterPath="$PROJECT_DIR$/modules/token/token.tokens.inc" />
     </list>
     <ignored path="hotspot8.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -253,11 +27,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="510">
               <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CHANGELOG.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/CHANGELOG.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example.gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -279,7 +83,6 @@
         <option value="$PROJECT_DIR$/themes/KCBASIC8/sass/_base.scss" />
         <option value="$PROJECT_DIR$/themes/KCBASIC8/kcbasic.libraries.yml" />
         <option value="$PROJECT_DIR$/.git/config" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/themes/KCBASIC8/sass/structure.scss" />
         <option value="$PROJECT_DIR$/themes/KCBASIC8/sass/theme.scss" />
         <option value="$PROJECT_DIR$/themes/KCBASIC8/sass/style.scss" />
@@ -287,6 +90,7 @@
         <option value="$PROJECT_DIR$/themes/KCBASIC8/.gitignore" />
         <option value="$PROJECT_DIR$/themes/KCBASIC8/templates/page.html.twig" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -422,12 +226,12 @@
       <updated>1480351448454</updated>
       <workItem from="1480351449574" duration="18653000" />
       <workItem from="1480440998153" duration="9592000" />
-      <workItem from="1489679331450" duration="1651000" />
+      <workItem from="1489679331450" duration="1843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29896000" />
+    <option name="totallyTimeSpent" value="30088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -615,13 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/KCBASIC8/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -671,17 +468,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/core.libraries.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/core.services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7620">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="510">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/CHANGELOG.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding />
         </state>
       </provider>
