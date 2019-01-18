@@ -1,0 +1,135 @@
+/* line 4, ../sass/style.scss */
+html {
+  box-sizing: border-box !important;
+}
+
+/* line 7, ../sass/style.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* line 11, ../sass/style.scss */
+body {
+  margin: 0;
+  font-family: "Lucida Grande", Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+/* line 19, ../sass/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3em;
+  font-weight: normal;
+  margin: 0 !important;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.6em !important;
+}
+
+/* line 27, ../sass/style.scss */
+h1 {
+  font-size: 22.5px;
+  margin: 0;
+}
+
+/* line 32, ../sass/style.scss */
+h2 {
+  font-size: 22.5px;
+  color: #2D3B3B;
+}
+
+/* line 37, ../sass/style.scss */
+h3 {
+  font-size: 17.55px;
+  color: #2D3B3B;
+}
+
+/* line 43, ../sass/style.scss */
+h4 {
+  font-size: 15px;
+  color: #2D3B3B;
+}
+
+/* line 48, ../sass/style.scss */
+h5 {
+  font-size: 13.125px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+/* line 54, ../sass/style.scss */
+h6 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* line 59, ../sass/style.scss */
+h1.page-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: solid 1px #2D3B3B;
+}
+
+/* line 65, ../sass/style.scss */
+p {
+  margin-top: 0px;
+}
+
+/* line 71, ../sass/style.scss */
+#page a {
+  color: #337ab4 !important;
+}
+/* line 73, ../sass/style.scss */
+#page a:link, #page a:visited {
+  color: #337ab4 !important;
+  text-decoration: none;
+}
+/* line 80, ../sass/style.scss */
+#page a:hover, #page a:active {
+  color: red;
+  text-decoration: underline;
+}
+
+/*
+* Menus
+*/
+/* line 93, ../sass/style.scss */
+#block-kcbasic-main-menu ul.menu, .main--menu ul.menu {
+  display: table;
+  margin: 0 !important;
+}
+/* line 96, ../sass/style.scss */
+#block-kcbasic-main-menu ul.menu li.menu-item, .main--menu ul.menu li.menu-item {
+  display: table-cell;
+  table-layout: fixed;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: solid 2px #337ab4;
+  border-top-left-radius: .2em .2em;
+  border-top-right-radius: .2em .2em;
+}
+/* line 104, ../sass/style.scss */
+#block-kcbasic-main-menu ul.menu li.menu-item a, .main--menu ul.menu li.menu-item a {
+  color: #fff;
+  font-size: .8em;
+  display: block;
+  padding: 4px 8px !important;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 112, ../sass/style.scss */
+#block-kcbasic-main-menu ul.menu li.menu-item:hover, .main--menu ul.menu li.menu-item:hover {
+  background-color: #083752;
+  border-bottom-color: #fff;
+}
+
+/**
+* use class box to stack html
+*/
+/* line 124, ../sass/style.scss */
+.box {
+  padding-bottom: 22px;
+}
+
+/* line 127, ../sass/style.scss */
+.border-bottom {
+  border-bottom: solid 1px #2D3B3B;
+}

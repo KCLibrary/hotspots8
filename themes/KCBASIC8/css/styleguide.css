@@ -1,0 +1,161 @@
+/*
+* Inline styles, apply as needed.
+*/
+/* line 8, ../sass/styleguide.scss */
+.border {
+  border: 1px solid #2D3B3B !important;
+  clear: both;
+}
+
+/* line 12, ../sass/styleguide.scss */
+.border-bottom {
+  border-bottom: solid 1px #2D3B3B !important;
+  margin-bottom: 20px;
+}
+
+/* line 16, ../sass/styleguide.scss */
+.border-top {
+  border-bottom: solid 1px #2D3B3B !important;
+}
+
+/* line 19, ../sass/styleguide.scss */
+.border-none {
+  border: none !important;
+}
+
+/* line 22, ../sass/styleguide.scss */
+.break {
+  border-bottom: 2px solid #2D3B3B !important;
+  margin: 20px 0;
+}
+
+/* line 27, ../sass/styleguide.scss */
+.inset {
+  padding: 20px;
+  margin: 20px;
+  border: solid 1px #2D3B3B;
+  clear: both;
+}
+
+/* line 34, ../sass/styleguide.scss */
+.padding {
+  padding: 20px;
+}
+
+/* line 38, ../sass/styleguide.scss */
+.padding-top {
+  padding-top: 20px;
+}
+
+/* line 41, ../sass/styleguide.scss */
+.padding-bottom {
+  padding-bottom: 20px !important;
+}
+
+/* line 44, ../sass/styleguide.scss */
+.padding-none {
+  padding: 0px !important;
+}
+
+/* line 47, ../sass/styleguide.scss */
+.margin {
+  margin: 20px;
+}
+
+/* line 50, ../sass/styleguide.scss */
+.margin-vertical {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 54, ../sass/styleguide.scss */
+.margin-top {
+  margin-top: 40px;
+}
+
+/* line 57, ../sass/styleguide.scss */
+.margin-top-half {
+  margin-top: 20px;
+}
+
+/* line 60, ../sass/styleguide.scss */
+.margin-bottom {
+  margin-bottom: 40px;
+}
+
+/* line 63, ../sass/styleguide.scss */
+.margin-bottom-half {
+  margin-bottom: 20px;
+}
+
+/* line 66, ../sass/styleguide.scss */
+.margin-none {
+  margin: 0px !important;
+}
+
+/* line 69, ../sass/styleguide.scss */
+.margin-top-none {
+  margin-bottom: 0px !important;
+}
+
+/* line 72, ../sass/styleguide.scss */
+.margin-bottom-none {
+  margin-bottom: 0px !important;
+}
+
+/* line 76, ../sass/styleguide.scss */
+.fifty, .one-half, .onehalf {
+  width: 50%;
+}
+
+/* line 80, ../sass/styleguide.scss */
+.twentyfive, .twenty-five, .one-fourth, .onefourth {
+  width: 25%;
+}
+
+/* line 84, ../sass/styleguide.scss */
+.onethird, .one-third {
+  width: 33.32%;
+}
+
+/* line 89, ../sass/styleguide.scss */
+.floatright, .float-right {
+  margin: 0 0 20px 20px;
+  margin-top: 10px;
+  float: right;
+  clear: both;
+  box-sizing: border-box;
+  display: block;
+}
+/* line 96, ../sass/styleguide.scss */
+.floatright img, .float-right img {
+  display: block;
+}
+
+/* line 101, ../sass/styleguide.scss */
+.floatleft, .float-left {
+  float: left;
+  margin: 0 20px 20px 0;
+  margin-top: 10px;
+  clear: both;
+  box-sizing: border-box;
+  display: block;
+}
+/* line 108, ../sass/styleguide.scss */
+.floatleft img, .float-left img {
+  display: block;
+}
+
+/* line 113, ../sass/styleguide.scss */
+.floatleft:after, .float-left:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 119, ../sass/styleguide.scss */
+.floatright:after, .float-right:after {
+  content: "";
+  display: table;
+  clear: both;
+}
